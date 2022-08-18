@@ -54,3 +54,5 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA130AF7B59645A7A8BE68BF8E341296 }}
           package: .
+      - name: Azure WebApp
+        uses: Azure/webapps-deploy@v2
