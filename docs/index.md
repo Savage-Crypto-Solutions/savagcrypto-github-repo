@@ -1,11 +1,9 @@
-## Welcome to GitHub Pages
+## Bienvenido al Sitio Oculto de JasonXXX
 
-![This is an image](https://drive.google.com/file/d/1UetgIwkkujeA3d-E1HQ-bxJ76Dzx09_G/view?usp=sharing)
+![Foro Cortesía #1](https://drive.google.com/file/d/1UetgIwkkujeA3d-E1HQ-bxJ76Dzx09_G)
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
