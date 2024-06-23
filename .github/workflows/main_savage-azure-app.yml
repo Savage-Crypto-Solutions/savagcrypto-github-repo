@@ -1,12 +1,12 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - savage-azure-app
+name: Build and deploy Node.js app to Azure Web App - savagecryptoapp
 
 on:
   push:
     branches:
-      - main
+      - latest
   workflow_dispatch:
 
 jobs:
@@ -50,9 +50,9 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'savage-azure-app'
+          app-name: 'savagecryptoapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA130AF7B59645A7A8BE68BF8E341296 }}
-          package: .
+          package:
       - name: Azure WebApp
         uses: Azure/webapps-deploy@v2
